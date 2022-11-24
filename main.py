@@ -7,7 +7,7 @@ def roll():
 
 
 def main():
-    a = input("press enter to start")
+    a = input("press enter to start the game")
     d1, d2 = roll()
     sum = d1 + d2
     print(f"{d1} + {d2} = {sum}")
